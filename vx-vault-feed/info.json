@@ -76,12 +76,13 @@
             "Create as Feed Records in FortiSOAR": [
               {
                 "title": "Record Creation Playbook IRI",
-                "description": "",
+                "description": "Specify the IRI of the playbook that creates feed records in FortiSOAR™ in the Record Creation Playbook IRI field.",
                 "type": "text",
                 "name": "create_pb_id",
                 "required": false,
                 "editable": true,
-                "visible": true
+                "visible": true,
+                "tooltip": "Specify the IRI of the playbook that creates feed records in FortiSOAR™ in the Record Creation Playbook IRI field."
               },
               {
                 "title": "Confidence",
