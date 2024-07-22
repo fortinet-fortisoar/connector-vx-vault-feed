@@ -6,6 +6,7 @@
   "publisher": "Fortinet",
   "cs_approved": true,
   "cs_compatible": true,
+  "contributor": "",
   "help_online": "",
   "icon_small_name": "small.png",
   "icon_large_name": "large.png",
@@ -70,7 +71,7 @@
             "Return as a JSON"
           ],
           "value": "Create as Feed Records in FortiSOAR",
-          "tooltip": "The Feed Data can either be returned as a JSON; written to a file on the FortiSOAR server; or Created as Feed Records in FortiSOAR",
+          "tooltip": "The Feed Data can either be returned as a JSON or Created as Feed Records in FortiSOAR",
           "description": "Select the method of returning the Feed Data information. You can choose from following options: Create as Feed Records in FortiSOAR: Specify the IRI of the Record Creation Playbook in Record Creation Playbook IRI field. Return as a JSON: Select this option to receive feeds as a JSON object.",
           "onchange": {
             "Create as Feed Records in FortiSOAR": [
