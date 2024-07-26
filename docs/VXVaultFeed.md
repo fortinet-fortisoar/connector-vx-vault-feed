@@ -39,10 +39,10 @@ The following automated operations can be included in playbooks and you can also
 
 ### operation: Get Indicators
 #### Input parameters
-<table border=1><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody><tr><td>Process Response As</td><td>Select the method of returning the Feed Data information. You can choose from following options: Create as Feed Records in FortiSOAR: Specify the IRI of the Record Creation Playbook in Record Creation Playbook IRI field. Return as a JSON: Select this option to receive feeds as a JSON object.
+<table border=1><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody><tr><td>Process Response As</td><td>Select the method of returning the Feed Data information. You can choose from following options: <br> Create as Feed Records in FortiSOAR: Specify the IRI of the Record Creation Playbook in Record Creation Playbook IRI field. <br> Return as a JSON: Select this option to receive feeds as a JSON object.
 <br><strong>If you choose 'Create as Feed Records in FortiSOAR'</strong><ul><li>Record Creation Playbook IRI: Specify the IRI of the playbook that creates feed records in FortiSOAR™ in the Record Creation Playbook IRI field.</li><li>Confidence: Specify the confidence score to be set for the feeds. Specify the range between 0 to 100. By default, this option is set to 90.</li><li>Reputation: Select the reputation to be set for the feeds. You can choose from the following options:  
 Good, Suspicious, Malicious, No Reputation Available, TBD. By default, this option is set to "Good"</li><li>TLP: Select the TLP to be set for the feeds. You can choose from the following options:  
-Red, Amber, Green, White. By default, this option is set to "White"</li></ul><strong>If you choose 'Return as a JSON'</strong><ul></ul></td></tr><tr><td>Limit</td><td>Specify the maximum count of records that you want this operation to fetch from VX Vault server. By default, this option is set to 100.
+Red, Amber, Green, White. By default, this option is set to "White"</li></ul></td></tr><tr><td>Limit</td><td>Specify the maximum count of records that you want this operation to fetch from VX Vault server. By default, this option is set to 100.
 </td></tr></tbody></table>
 
 #### Output
@@ -68,7 +68,7 @@ The `Sample - VX Vault Feed - 1.0.0` playbook collection comes bundled with the 
 
 ## Data Ingestion Support
 
-Use the Data Ingestion Wizard to easily ingest data into FortiSOAR™ by pulling data from VX Vault Feed. Currently, data from VX Vault Feed are mapped to "threat intel feeds" in FortiSOAR™. For more information on the Data Ingestion Wizard, see the "Connectors Guide" in the FortiSOAR™ product documentation.
+Use the Data Ingestion Wizard to easily ingest data into FortiSOAR™ by pulling data from VX Vault Feed. Currently, data from VX Vault Feed are mapped to "Threat Intel Feeds" in FortiSOAR™. For more information on the Data Ingestion Wizard, see the "Connectors Guide" in the FortiSOAR™ product documentation.
 
 ### Prerequisites
 
