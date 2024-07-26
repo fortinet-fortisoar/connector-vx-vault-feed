@@ -60,7 +60,7 @@ The output contains the following populated JSON schema:
 ## Included playbooks
 The `Sample - VX Vault Feed - 1.0.0` playbook collection comes bundled with the VX Vault Feed connector. These playbooks contain steps using which you can perform all supported actions. You can see bundled playbooks in the **Automation** > **Playbooks** section in FortiSOAR&trade; after importing the VX Vault Feed connector.
 
-- > VX Vault Feed > Create
+- VX Vault Feed > Create
 - Get Indicators
 - VX Vault Feed > Ingest > Fetch
 
@@ -94,7 +94,7 @@ Sample data is required to create a field mapping between the VX Vault Feeds and
 The fetched data is used to create a mapping between the VX Vault Feeds and FortiSOAR™ threat intel feeds. Once you have completed specifying the configurations, click Fetch Data.
 
 3.  On the Field Mapping screen, map the fields of a VX Vault Feed to the fields of a threat intel feed present in FortiSOAR™.
-To map a field, click the key in the sample data to add the “jinja” value of the field. For example, to map the URL parameter of a VX Vault Feed to the value parameter of a FortiSOAR™ threat intel feed, click the value field, and then click the URL field to populate its keys: 
+To map a field, click the key in the sample data to add the “jinja” value of the field. For example, to map the MD5 parameter of a VX Vault Feed to the value parameter of a FortiSOAR™ threat intel feed, click the value field, and then click the MD5 field to populate its keys: 
 
 ![](media/mapping.png)
 
